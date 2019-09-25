@@ -38,7 +38,7 @@ export default {
 					type: 'image',
 					ref: 'image_1',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/diabo_ana.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/diabo_ana155.jpg',
 					alt: 'Diabo Ana',
 					sizes: {
 						xs: 8,
@@ -56,7 +56,7 @@ export default {
 					title: 'Breu',
 					ref: 'video_01',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/videos/breu.mp4',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/breu.mp4',
 					poster: '/assets/image/Breu.png',
 					alt: 'Breu',
 					sizes: {
@@ -74,7 +74,7 @@ export default {
 					type: 'image',
 					ref: 'image_2',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/diabo_2.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/diabo_2.jpg',
 					alt: 'Diabo 2',
 					sizes: {
 						xs: 8,
@@ -106,7 +106,7 @@ export default {
 					title: 'O Medo é a Gente',
 					ref: 'audio_1',
 					margin: 'margin-left',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/cei__a_medo.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/ceic%CC%A7a_medo.mp3',
 					alt: 'O Medo é a Gente',
 					sizes: {
 						xs: 8,

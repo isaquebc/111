@@ -44,7 +44,7 @@ export default {
 					title: 'Formar Uma Escola',
 					ref: 'audio_1',
 					margin: 'margin-left',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/escla_tecnica.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/escola_tecnica.mp3',
 					alt: 'Formar Uma Escola',
 					sizes: {
 						xs: 8,
@@ -79,7 +79,7 @@ export default {
 					margin: '',
 					textType: '',
 					alt: 'Jantar',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/foto_jantar.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/jantar.jpg',
 					text: '',
 					sizes: {
 						xs: 8,
@@ -97,7 +97,7 @@ export default {
 					title: 'O Que é Trabalho',
 					ref: 'audio_2',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/socorro.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/trabalho.mp3',
 					alt: 'O Que é Trabalho',
 					sizes: {
 						xs: 8,

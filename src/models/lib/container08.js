@@ -42,7 +42,7 @@ export default {
 					title: 'Se O Mundo Te Fizer Cair',
 					ref: 'audio_1',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/se_o_mundo_te_fizer_cair.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/se_o_mundo_te_fizer_cair.mp3',
 					alt: 'Se O Mundo Te Fizer Cair',
 					sizes: {
 						xs: 8,
@@ -133,7 +133,7 @@ export default {
 					ref: 'image_02',
 					textType: '',
 					alt: 'Furacao',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/FURACAO.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/furacao.jpg',
 					text: '',
 					sizes: {
 						xs: 8,

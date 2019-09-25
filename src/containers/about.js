@@ -11,7 +11,7 @@ export default class About extends Component {
 				</div>
 				<section className='container about-page'>
 					<div className='title'><h1>centoeonze \\\</h1></div>
-					<div className='image'><img className='img' src='https://s3-us-west-2.amazonaws.com/centoeonze/images/000263490020.png' width='1046px' /></div>
+					<div className='image'><img className='img' src='https://111-assets.s3-us-west-2.amazonaws.com/quarto.jpg' width='1046px' /></div>
 					<div className='text-about'>
 						<div className='explanation'>
 							<p>
@@ -29,7 +29,7 @@ export default class About extends Component {
 							</p>
 							<p>
 								<span className='bold'>coletivo metade: </span>
-								Ana Sayeg Tranchesi e Isabella Beneduci Assad/ Projeto gráfico: <a className='link' href='http://biancabeneduciassad.com/'>Bianca Beneduci</a>/ Programação: theVelops. O código fonte deste projeto se encontra <a className='link' href='https://github.com/shareTheVelopment/111'>aqui</a> 
+								Ana Sayeg Tranchesi e Isabella Beneduci Assad/ Projeto gráfico: <a className='link' href='http://biancabeneduciassad.com/'>Bianca Beneduci</a>/ Programação: theVelops. O código fonte deste projeto se encontra <a className='link' href='https://github.com/isaquebc/111'>aqui</a> 
 								<span className='bold'> colaboradores:</span>
 								Alef da Silva Souza, Cicero de Souza Silva, , Elizabeth, Inez Trindade de Souza, Josenildo Cruz Nunes, L, Lindemberg João da Silva, Lucia, Maria do Carmo, Maria do Socorro Cruz, Mariano Querino Nunes, Marinilda Cruz Nunes, Mauro, Nuno, Sandro, R, 
 								<span className='bold'> agradecimentos:</span>

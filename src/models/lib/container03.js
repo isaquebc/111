@@ -40,7 +40,7 @@ export default {
 					title: 'Não Tem Jeito Não Ter Conflito',
 					ref: 'audio_1',
 					margin: 'margin-right',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/conflito.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/conflito.mp3',
 					alt: 'Não Tem Jeito N Ter Conflito',
 					sizes: {
 						xs: 8,
@@ -72,7 +72,7 @@ export default {
 					title: 'O Invasor Traiu Primeiro',
 					ref: 'audio_02',
 					margin: 'margin-left',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/tia_beza_conflito.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/tiabeza_conflito.mp3',
 					alt: 'O Invaso Traiu Primeiro',
 					sizes: {
 						xs: 8,
@@ -90,7 +90,7 @@ export default {
 					title: 'Bezerro',
 					ref: 'video_01',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/videos/bezerro.mp4',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/bezerro.mp4',
 					alt: 'Bezerro',
 					sizes: {
 						xs: 8,

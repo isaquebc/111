@@ -23,7 +23,7 @@ export default {
 					title: 'Que Nem Casa de Abelha',
 					ref: 'audio_1',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/que_nem_casa_de_abelha.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/que_nem_casa_de_abelha.mp3',
 					alt: 'Que Nem Casa de Abelha',
 					sizes: {
 						xs: 8,
@@ -42,7 +42,7 @@ export default {
 					margin: 'margin-right',
 					textType: '',
 					alt: 'Escada Colorida',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/escada_colorida.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/escada_colorida.jpg',
 					text: '',
 					sizes: {
 						xs: 8,
@@ -119,7 +119,7 @@ export default {
 					title: 'Gente Que Quer',
 					ref: 'audio_2',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/ocasiao_2.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/ocasiao.mp3',
 					alt: 'Gente Que Quer',
 					sizes: {
 						xs: 8,

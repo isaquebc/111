@@ -21,7 +21,7 @@ export default {
 					title: 'Motor e pregos',
 					ref: 'video_01',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/videos/DJI_0078.mp4',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/motor.mov',
 					alt: 'Motor e pregos',
 					sizes: {
 						xs: 8,
@@ -39,7 +39,7 @@ export default {
 					title: 'O Sistema é Bruto',
 					ref: 'audio_1',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/o_sistema_e_bruto.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/o_sistema_e_bruto.mp3',
 					alt: 'O Sistema é Bruto',
 					sizes: {
 						xs: 8,
@@ -51,7 +51,7 @@ export default {
 					title: 'Rodoviária',
 					ref: 'audio_2',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/rodoviaria.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/rodoviaria.mp3',
 					alt: 'Rodoviária',
 					sizes: {
 						xs: 8,
@@ -89,7 +89,7 @@ export default {
 					margin: 'margin-left',
 					textType: '',
 					alt: 'Sistema',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/layout7_ sistema.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/acougue.jpg',
 					text: '',
 					sizes: {
 						xs: 8,

@@ -22,7 +22,7 @@ export default {
 					margin: 'margin-right',
 					textType: '',
 					alt: 'Umbigo',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/000263440023.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/mariano.jpg',
 					text: '',
 					sizes: {
 						xs: 8,
@@ -40,7 +40,7 @@ export default {
 					title: 'Obstáculo Significa Detalhe',
 					ref: 'audio_1',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/luta_encontro_coletivo.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/luta_encontro_coletivo.mp3',
 					alt: 'Obstáculo Significa Detakhe',
 					sizes: {
 						xs: 8,
@@ -58,7 +58,7 @@ export default {
 					title: 'Panos',
 					ref: 'video_01',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/videos/panos.mp4',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/panos.mp4',
 					alt: 'Panos',
 					poster: '/assets/image/Panos.png',
 					sizes: {

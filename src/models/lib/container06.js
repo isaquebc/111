@@ -28,7 +28,7 @@ export default {
 					margin: 'margin-right',
 					textType: '',
 					alt: 'Vidas Continuadas',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/vidascontinuadas1.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/vidascontinuadas.jpg',
 					text: '',
 					sizes: {
 						xs: 8,
@@ -47,7 +47,7 @@ export default {
 					margin: '',
 					textType: '',
 					alt: 'Cachorro Morto na Estrada 01',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/Screen Shot 2017-03-31 at 8.05.52 PM.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/cavalo1.jpg',
 					text: '',
 					sizes: {
 						xs: 8,
@@ -66,7 +66,7 @@ export default {
 					margin: 'margin-right',
 					textType: '',
 					alt: 'Cachorro Morto na Estrada 02',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/Screen Shot 2017-03-31 at 8.05.45 PM.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/cavalo2.jpg',
 					text: '',
 					sizes: {
 						xs: 8,
@@ -79,7 +79,7 @@ export default {
 					margin: '',
 					textType: '',
 					alt: 'Cachorro Morto na Estrada 03',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/Screen Shot 2017-03-31 at 8.05.58 PM.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/cavalo3.jpg',
 					text: '',
 					sizes: {
 						xs: 8,
@@ -119,7 +119,7 @@ export default {
 					margin: '',
 					textType: '',
 					alt: 'Malas',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/000263430032.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/malas.jpg',
 					text: '',
 					sizes: {
 						xs: 8,
@@ -131,7 +131,7 @@ export default {
 					title: 'Peão de Trecho',
 					ref: 'audio_1',
 					margin: 'margin-right',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/trecho.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/trecho.mp3',
 					alt: 'Peão de Trecho',
 					sizes: {
 						xs: 8,

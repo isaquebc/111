@@ -24,7 +24,7 @@ export default {
 					margin: 'margin-right',
 					textType: '',
 					alt: 'Formar Um Grupo',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/uniao_contrariada.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/formar_um_grupo.mp3',
 					text: '',
 					sizes: {
 						xs: 8,
@@ -55,7 +55,7 @@ export default {
 					type: 'image',
 					ref: 'image_1',
 					margin: 'margin-right',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/mao_e_espinho.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/mao_e_espinho.jpg',
 					alt: 'Mão e Espinho',
 					sizes: {
 						xs: 8,
@@ -74,7 +74,7 @@ export default {
 					margin: '',
 					textType: '',
 					alt: 'Desenho Tubulões',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/desenho_tubuloes_copy.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/desenho_tubuloes.jpg',
 					text: '',
 					sizes: {
 						xs: 8,

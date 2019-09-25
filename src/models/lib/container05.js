@@ -26,7 +26,7 @@ export default {
 					margin: '',
 					textType: '',
 					alt: 'Igreja',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/igreja.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/igreja.jpg',
 					text: '',
 					sizes: {
 						xs: 8,
@@ -44,7 +44,7 @@ export default {
 					title: 'Capacidade Responsável',
 					ref: 'audio_1',
 					margin: '',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/responsabilidade.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/responsabilidade.mp3',
 					alt: 'Capacidade Responsável',
 					sizes: {
 						xs: 8,
@@ -83,7 +83,7 @@ export default {
 					title: 'O Rio',
 					ref: 'audio_2',
 					margin: 'margin-right',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/audios/o_rio.mp3',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/o_rio.mp3',
 					alt: 'O Rio',
 					sizes: {
 						xs: 8,
@@ -96,7 +96,7 @@ export default {
 					margin: '',
 					textType: '',
 					alt: 'Cemitério',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/000263470017.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/cemiterio_menino.jpg',
 					text: '',
 					sizes: {
 						xs: 8,
@@ -134,7 +134,7 @@ export default {
 					margin: '',
 					textType: '',
 					alt: 'A Escada',
-					src: 'https://s3-us-west-2.amazonaws.com/centoeonze/images/escada.png',
+					src: 'https://111-assets.s3-us-west-2.amazonaws.com/escada.jpg',
 					text: '',
 					sizes: {
 						xs: 8,
