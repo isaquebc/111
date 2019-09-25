@@ -1,0 +1,154 @@
+.audio-wrapper
+	position fixed
+	width 100%
+	height 60px
+	display flex
+	display -webkit-flex
+	-webkit-align-items center;
+	align-items center;
+	background-color rgba(#FFF .8)
+	animation showUp 0.5s
+	bottom 0 
+	z-index 50
+	
+	&.-hide
+		display none
+
+
+@keyframes showUp
+	from 
+		bottom -100px
+	to 
+		bottom 0px
+	
+
+.audio
+	width 100%
+	padding-left 15px
+	padding-right 15px
+	margin-left auto
+	margin-right auto
+	
+	> .title
+		display none
+		font-family $BrandonGrotesque-light
+		text-transform lowercase
+		vertical-align middle
+		text-align center
+		
+		@media (min-width $screen-device-medium)
+			display inline-block
+			width 200px
+			text-overflow ellipsis
+			overflow hidden
+			white-space: nowrap; 
+			margin-right 15px
+			font-family $BrandonGrotesque-light
+	
+	> .close
+		vertical-align middle
+		cursor pointer
+		background-color transparent
+		display inline-block
+
+	> .actions
+		display inline-block
+		width calc(100% - 37px)
+		
+		@media (min-width $screen-device-medium)
+			width calc(100% - 252px)
+		
+		> .start
+			width 30px
+			height 30px
+			margin-right 15px
+			display inline-block	
+			vertical-align middle
+			cursor pointer
+			background-color transparent
+			&:active
+			&:focus
+				outline none
+				border none
+			
+			> .image
+				height 100%	
+	
+		
+		> .control
+			display inline-block	
+			-webkit-appearance none
+			width calc(100% - 65px)
+			vertical-align middle
+
+		> .control:focus
+			outline none
+
+		> .control::-webkit-slider-runnable-track
+			width 300px
+			height 2px
+			background #000
+			border none
+			cursor pointer
+
+		> .control::-webkit-slider-thumb
+			border 5.5px solid #000
+			height 15px
+			width 15px
+			border-radius 50%
+			cursor pointer
+			background #000
+			-webkit-appearance none
+			margin-top -6.5px
+
+		> .control::-moz-range-track
+			width 100%
+			height 2px
+			background #000
+			border 0
+			cursor pointer
+
+		> .control::-moz-range-thumb
+			box-shadow 1px 1px 1px #000, 0px 0px 1px #000
+			border 5.5px solid #000
+			height 16px
+			width 16px
+			cursor pointer
+			border-radius 50px
+			background #000
+
+		> .control::-ms-track
+			width 300px
+			height: 0px
+			background: transparent
+			border-color: transparent
+			color: transparent
+
+		> .control::-ms-fill-lower
+			background rgba(0,0,0,0)
+			border 0px solid #010101
+			border-radius 0px
+			box-shadow 1px 1px 1px #000, 0px 0px 1px #000
+
+		> .control::-ms-fill-upper
+			background: rgba(0,0,0,0)
+			border: 0px solid #010101
+			border-radius: 0px
+			box-shadow: 1px 1px 1px #000, 0px 0px 1px #000
+
+		> .control::-ms-thumb
+			box-shadow: 1px 1px 1px #000, 0px 0px 1px #000
+			border: 5.5px solid #000
+			height: 16px
+			width: 16px
+			cursor pointer
+			border-radius: 50px
+			background: #000
+			height: 0px
+
+		> .control:focus::-ms-fill-lower
+			background: rgba(0,0,0,0)
+
+		> .control:focus::-ms-fill-upper
+			background: rgba(0,0,0,0)
+

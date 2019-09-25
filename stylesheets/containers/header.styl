@@ -1,0 +1,27 @@
+.header
+	height 70px
+	width 100%
+	position fixed
+	top 0
+	background-color #FFF
+	z-index 30
+
+	opacity 0.8
+	> .title
+		margin 15px 0 0 60px
+		font-family $BrandonGrotesque-light
+		font-size 1.5rem
+		letter-spacing 0.1em
+		text-decoration underline
+		cursor pointer 
+
+		@media (max-width $screen-device-small-max)
+			display inline-block
+			margin 25px 0 0 15px
+				
+	> .button-up
+		margin 20px
+		background-color #FFF
+		cursor pointer
+		@media (max-width $screen-device-small-max)
+			float right

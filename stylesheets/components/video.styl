@@ -1,0 +1,38 @@
+.video-wrapper
+	display flex
+	display -webkit-flex
+	jusfify-content center
+	-webkit-jusfify-content center
+	align-items center
+	cursor default
+	position relative
+	z-index 4
+	
+	@media (max-width $screen-device-small-max)
+		width 100%
+		margin-top 192px
+			
+		
+	> .video
+		height 428px
+		@media (max-width $screen-device-small-max)
+			display block
+			width 100%
+			height auto
+
+	.video-white-ball
+		height 66px
+		width 66px
+		background-color #FFF
+		border-radius 50%	
+		position absolute
+		z-index 5
+		top calc(50% - 33px)
+		left calc(50% - 33px)
+
+		&.hide
+			visibility hidden
+
+.cursor-pointer
+		cursor pointer
+		

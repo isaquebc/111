@@ -1,0 +1,33 @@
+import React from 'react';
+
+export default [
+	<p className='bold text-font-big text-uppercase'>DIÁRIO DE VIAGEM</p>,
+	<br/>, 
+	<br/>, 
+	<p className='bold'>15.01.17 </p>,
+	<p className='bold'>DIA 1 SP-MG</p>,
+	<br/>, 
+	<p>862 km: São Paulo à Joaquim Felício </p>,
+	<p>saída 8h </p>,
+	<p>chegada +-18h30</p>,
+	<br/>, 
+	<p>dormimos em uma quitinete: quarto, cozinha, banheiro.</p>,
+	<br/>, 
+	<p className='bold'>16.01.17 </p>,
+	<p className='bold'>DIA 2 MG-BA</p>,
+	<br/>, 
+	<p>719 km: Joaquim Felício à BA Manoel Votorino</p>,
+	<p>saída 9h17 </p>,
+	<p>chegada 18h41 ou 19h41 </p>,
+	<br/>, 
+	<p>na Bahia não há horário de verão. pneu furado: 13 reais </p>,
+	<br/>, 
+	<p className='bold'>17.01.17 </p>,
+	<p className='bold'>DIA 3 BA-PE</p>,
+	<br/>, 
+	<p>706 km Manoel Vitorino à Petrolândia</p>,
+	<p>saída 7h32</p>,
+	<p>chegada 18/19h</p>,
+	<br/>, 
+	<p>chegamos. jantar: milho enlatado. exaustas.</p>
+];

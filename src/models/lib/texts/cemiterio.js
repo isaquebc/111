@@ -1,0 +1,8 @@
+import React from 'react';
+
+export default [
+	<p className='bold text-font-big text-uppercase'>é preciso confundir as coisas</p>,
+	<br/>,
+	<br/>,
+	<p>Tem um menino em cima do túmulo de azulejos brancos agachado com as pernas feito quem brinca de sapo em cima da pedra. Ele molha a bucha dentro do balde, aperta forte, despeja água, esfregão, joga o balde no chão. O cemitério é branco e marrom e vazio. Não tem ninguém em cima da terra – ele e eu, olhando ele só. Sua mãe saiu para pegar mais sabão. O dia anuncia quase o fim –  a morte é o fim do quê? Seus gestos poderiam ser de gente grande, como quem esfrega o chão de um banheiro, mas usa as mãos como quem faz um castelo de areia –  mas faz vento e o castelo se desmancharia. O túmulo é de alvenaria e duro, não derruba. O esfregar do menino é uma carícia naquele que não sei quem é e que não sei se ele sabe quem é. Quanto é que ele ganha para fazer aquilo? Valente. Branda sou eu distante parada, fitando. Pena que meu devaneio é magro. Gigante é ele, em cima, agachado, firme. Posso guardar lembrança? E em quem será que moram as lembranças daquele que repousa dentro desse pedaço de cimento e cerâmica? E quais serão as lembranças que morreram junto dele? E no que será que pensa o menino enquanto venta enquanto limpa enquanto dia? Será que pensa na morte? Faz uma tarde quente. O céu de um azul cada vez menos branco. O branco do azulejo cada vez mais branco. </p>
+];

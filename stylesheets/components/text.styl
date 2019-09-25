@@ -1,0 +1,70 @@
+.text
+	position relative
+	z-index 4
+	
+	&.-small
+		font-size 1.0625rem
+		font-family $BrandonGrotesque-light
+		letter-spacing 1px
+		overflow-y scroll
+		height 300px
+		margin-bottom 10px
+		padding-left 30px	
+		line-height 20pt
+
+		@media (max-width $screen-device-small-max)
+			margin-top 192px
+			padding-left 0	
+
+	&.noScroll
+		@media (max-width $screen-device-small-max)
+			max-width 100%
+			overflow-y: hidden;
+		
+	&.-big
+		font-size 1.5rem
+		font-family $BrandonGrotesque-regular
+		letter-spacing 5px
+		font-weight 0
+		padding-left 49px
+		margin-bottom 10px
+		line-height 2em
+		cursor default
+			
+	&.-big
+		@media (max-width $screen-device-small-max)
+			padding-right 15px
+			padding-left 0			
+			
+	@media (max-width $screen-device-small-max)
+		width 100%
+		display block
+		margin-top 192px
+
+.default-scroll
+	::-webkit-scrollbar
+		width 0px
+
+	::-webkit-scrollbar-track
+		width 0px
+		
+.big-text-red-ball
+	height 19px
+	width 19px
+	background-color red
+	border-radius 50%
+	position absolute
+	
+	@media (max-width $screen-device-small-max)
+		display none
+		
+.text-read-more
+	padding-top 10px
+	background-color #FFF
+	font-family $BrandonGrotesque-light
+	display block	
+	width 100%
+	>div
+		transform translateY(-34px) translateX(55px)
+		
+	

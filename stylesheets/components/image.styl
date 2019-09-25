@@ -1,0 +1,25 @@
+.image-red-ball
+	height 19px
+	width 19px
+	background-color red 
+	border-radius 50%
+	position absolute
+	
+	@media (max-width $screen-device-small-max)
+		display none
+
+
+.image-wrapper	
+	height 500px
+	width 500px
+	z-index 1
+	
+	@media (max-width $screen-device-small-max)
+		width 100%
+		height auto
+	> .image
+		padding-left 50px
+		@media (max-width $screen-device-small-max)
+			padding-left 0
+			width 100%
+			margin-top 192px

@@ -1,0 +1,10 @@
+import React from 'react';
+
+export default [
+	<p>FOI PEGANDO FOGO</p>,
+	<p>FOI FALTANDO FREIO</p>,
+	<p>FOI FALTANDO DE TUDO UM POUQUINHO NO MEIO DO CAMINHO.</p>,
+	<p>PARECE QUE ERA UM NEGÓCIO ASSIM</p>,
+	<p>VOLTA PRA TRÁS, DIZENDO ASSIM</p>,
+	<p>VOLTA PRA TRÁS VOLTE PRA TRÁS.</p>
+];

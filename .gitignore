@@ -1,0 +1,12 @@
+node_modules
+
+public/build
+
+public/assets/audios
+
+public/assets/videos
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
