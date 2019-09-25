@@ -4,7 +4,9 @@
   "description": "Projeto de intervenção contracondutas sobre trabalho escravo na reforma (2014) do Aeroporto Internacional de Guarulhos (GRU).",
   "main": "app.js",
   "scripts": {
-    "start": "babel-node app.js --exec \"gulp stylus && webpack\"",
+    "start": "babel-node app.js",
+    "build": "gulp style && webpack",
+    "dev": "gulp style && webpack && babel-node app.js",
     "startDev": "nodemon app.js --exec \"eslint src/ && eslint server/ && babel-node\""
   },
   "author": "Coletivo theVelops",

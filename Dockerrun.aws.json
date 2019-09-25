@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "458807770492.dkr.ecr.us-west-2.amazonaws.com/centoeonze111",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "HostPort": "80",
+      "ContainerPort": "8080"
+		},
+		{
+			"HostPort": "443",
+			"ContainerPort": "8080"
+		}
+  ]
+}
