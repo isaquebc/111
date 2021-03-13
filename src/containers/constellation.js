@@ -61,7 +61,7 @@ class Constellation extends Component {
 
 	render() {
 		const { width } = this.state;
-		const src = `${width >= 992 ? 'https://s3-us-west-2.amazonaws.com/centoeonze/images/constellation.png' : width == 0 ? '' : 'https://s3-us-west-2.amazonaws.com/centoeonze/images/constellation_mobile.png'}`;
+		const src = `${width >= 992 ? 'https://111-assets.s3-us-west-2.amazonaws.com/constellation.jpg' : width == 0 ? '' : 'https://s3-us-west-2.amazonaws.com/centoeonze/images/constellation_mobile.png'}`;
 		return (
 			<section className='constellation' id='index'>
 				<img

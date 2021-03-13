@@ -7,7 +7,8 @@
     "start": "babel-node app.js",
     "build": "gulp style && webpack",
     "dev": "gulp style && webpack && babel-node app.js",
-    "startDev": "nodemon app.js --exec \"eslint src/ && eslint server/ && babel-node\""
+    "startDev": "nodemon app.js --exec \"eslint src/ && eslint server/ && babel-node\"",
+    "deploy:s3": "aws s3 sync public/ s3://centoeonze111.com --acl public-read --cache-control public,max-age=60"
   },
   "author": "Coletivo theVelops",
   "license": "MIT",
@@ -29,6 +30,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^2.4.1",
     "gulp-stylus": "^2.6.0",
+    "html-webpack-plugin": "2.24.1",
     "morgan": "^1.8.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -36,6 +38,7 @@
     "react-redux": "^5.0.3",
     "react-router": "<4.0.0",
     "redux": "^3.6.0",
+    "script-ext-html-webpack-plugin": "^2.1.5",
     "uglifyjs-webpack-plugin": "^0.3.0",
     "webpack": "^2.2.1"
   },
